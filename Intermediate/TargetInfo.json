@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "L20221025",
+			"Path": "C:\\Work\\L20221025\\Source\\L20221025.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "L20221025Editor",
+			"Path": "C:\\Work\\L20221025\\Source\\L20221025Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

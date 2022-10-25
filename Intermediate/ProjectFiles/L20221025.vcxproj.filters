@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\L20221025.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{84C0BE70-0CBA-4148-AC71-0BF951694F2B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\L20221025.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\L20221025Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{25B972DA-2D07-4DAF-91FD-132550B05256}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\L20221025">
+      <UniqueIdentifier>{A9C6A99F-1120-4571-A4CA-FB7FAA7DC251}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\L20221025\L20221025.Build.cs">
+      <Filter>Source\L20221025</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\L20221025\L20221025.cpp">
+      <Filter>Source\L20221025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\L20221025\L20221025.h">
+      <Filter>Source\L20221025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\L20221025\MyGameModeBase.cpp">
+      <Filter>Source\L20221025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\L20221025\MyGameModeBase.h">
+      <Filter>Source\L20221025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\L20221025\MyPawn.cpp">
+      <Filter>Source\L20221025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\L20221025\MyPawn.h">
+      <Filter>Source\L20221025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\L20221025\MyPlayerController.cpp">
+      <Filter>Source\L20221025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\L20221025\MyPlayerController.h">
+      <Filter>Source\L20221025</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
