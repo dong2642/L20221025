@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\L20221025.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{84C0BE70-0CBA-4148-AC71-0BF951694F2B}</UniqueIdentifier>
+      <UniqueIdentifier>{9CD9B866-FBFE-46A4-B7CC-FE8BC2F893F4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\L20221025.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\L20221025Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{25B972DA-2D07-4DAF-91FD-132550B05256}</UniqueIdentifier>
+      <UniqueIdentifier>{1CA7E878-D4F8-4172-9B57-51C084CFB146}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +25,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\L20221025">
-      <UniqueIdentifier>{A9C6A99F-1120-4571-A4CA-FB7FAA7DC251}</UniqueIdentifier>
+      <UniqueIdentifier>{4F3415D6-F3A9-4FDC-B0C8-0E1AD644DD89}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\L20221025\L20221025.Build.cs">
       <Filter>Source\L20221025</Filter>
@@ -51,6 +56,12 @@
       <Filter>Source\L20221025</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\L20221025\MyPlayerController.h">
+      <Filter>Source\L20221025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\L20221025\MyRocket.cpp">
+      <Filter>Source\L20221025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\L20221025\MyRocket.h">
       <Filter>Source\L20221025</Filter>
     </ClInclude>
   </ItemGroup>

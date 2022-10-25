@@ -11,6 +11,7 @@ class UStaticMeshComponent;
 class USpringArmComponent;
 class UCameraComponent;
 class UFloatingPawnMovement;
+class UArrowComponent;
 
 
 UCLASS()
@@ -33,19 +34,49 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	void Fire();
+
+	void Pitch(float value);
+
+	void Roll(float value);
+
+
+	// UPROPERTY(VisibleAnywhere) -> 블루프린트 에디터 화면에서 디테일창이 표시됨
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UBoxComponent* Box;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UStaticMeshComponent* Body;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UStaticMeshComponent* Left;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UStaticMeshComponent* Right;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	USpringArmComponent* SpringArm;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UCameraComponent* Camera;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UFloatingPawnMovement* Movement;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	UArrowComponent* Arrow;
+
+
+	// 변수는 Editanywhere, ReadWrite로 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Speed")
+	float RotationSpeed = 60.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Speed")
+	float PropellerRoationSpeed = 3600.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Speed")
+	float MoveSpeed = 100.0f;
 
 
 };
